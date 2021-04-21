@@ -9,7 +9,7 @@
 ## Contribute
 
 - [Help add hospital contact details in spreadsheet](https://docs.google.com/spreadsheets/d/1qv_14JZ-svxY84KV4KZfqu-ploj7e62eSqheNY9PiEY/edit#gid=0)
-- Reuse data: [CSV](https://github.com/covid-telangana/covid-telangana.github.io/blob/main/data/beds.csv)
+- Reuse data: [CSV](https://github.com/covid-telangana/covid-telangana.github.io/blob/master/data/beds.csv)
 
 ## Links
 
