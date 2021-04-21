@@ -42,6 +42,7 @@ def beds(url="http://164.100.112.24/SpringMVC/getHospital_Beds_Status_Citizen.ht
         "TYPE",
     ]
     df = df[columns]
+    df["NAME OF THE HOSPITAL"] = df["NAME OF THE HOSPITAL"].str.split(". ", 1).str[-1]
     df.to_csv(STORE / "beds.csv", index=False)
     # archive hourly
     now = pd.to_datetime("now").tz_localize("UTC").tz_convert("Asia/Calcutta")
