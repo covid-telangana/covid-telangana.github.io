@@ -16,3 +16,14 @@ Data source: Automatically updated every hour from [Department of Health, Medica
 ### Links
 
 - [stopcoronatn.github.io](https://stopcoronatn.github.io/)
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QHRMLZSXRG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QHRMLZSXRG');
+</script>
