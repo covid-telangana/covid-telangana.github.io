@@ -40,6 +40,7 @@ def beds(url="http://164.100.112.24/SpringMVC/getHospital_Beds_Status_Citizen.ht
         "TOTAL BEDS OCCUPIED",
         "TOTAL BEDS VACANT",
         "TYPE",
+        "CONTACT NO"
     ]
     df = df[columns]
     df["NAME OF THE HOSPITAL"] = df["NAME OF THE HOSPITAL"].str.split(". ", 1).str[-1]
