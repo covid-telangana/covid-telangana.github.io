@@ -24,6 +24,7 @@ def beds(url="http://164.100.112.24/SpringMVC/getHospital_Beds_Status_Citizen.ht
         df_h = beds_df(r.text, hospital_type)
         df.append(df_h)
     df = pd.concat(df, ignore_index=True)
+    df["LAST UPDATED"] = df["LAST UPDATED DATE"] + " " + df["LAST UPDATED TIME"]
     columns = [
         "DISTRICT",
         "NAME OF THE HOSPITAL",
@@ -40,7 +41,8 @@ def beds(url="http://164.100.112.24/SpringMVC/getHospital_Beds_Status_Citizen.ht
         "TOTAL BEDS OCCUPIED",
         "TOTAL BEDS VACANT",
         "TYPE",
-        "CONTACT NO"
+        "CONTACT NO",
+        "LAST UPDATED",
     ]
     df = df[columns]
     df["NAME OF THE HOSPITAL"] = df["NAME OF THE HOSPITAL"].str.split(". ", 1).str[-1]
