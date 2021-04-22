@@ -25,6 +25,7 @@ def beds(url="http://164.100.112.24/SpringMVC/getHospital_Beds_Status_Citizen.ht
         df.append(df_h)
     df = pd.concat(df, ignore_index=True)
     df["LAST UPDATED"] = df["LAST UPDATED DATE"] + " " + df["LAST UPDATED TIME"]
+    df["LAST UPDATED"] = pd.to_datetime(df["LAST UPDATED"])
     columns = [
         "DISTRICT",
         "NAME OF THE HOSPITAL",
