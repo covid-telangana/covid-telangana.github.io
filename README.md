@@ -16,6 +16,7 @@ Data source: Automatically updated every hour from [Department of Health, Medica
 ### Links
 
 - [Telangana District-level Vacancy](https://docs.google.com/spreadsheets/d/1qv_14JZ-svxY84KV4KZfqu-ploj7e62eSqheNY9PiEY/edit#gid=732515913)
+- [Hyderabad Beds](https://covidbeds.info/hyderabad-beds/) - Team manually calls the hospitals once everyday
 - [NephroPlus centres (india)](https://docs.google.com/spreadsheets/d/1qv_14JZ-svxY84KV4KZfqu-ploj7e62eSqheNY9PiEY/edit#gid=984548854)
 - [stopcoronatn.github.io](https://stopcoronatn.github.io/)
 
