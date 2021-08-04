@@ -4,8 +4,8 @@ name: Update
 
 on:
   schedule:
-    # Run every 3 hours between 6:30am-9:30pm and 11:30pm IST. Reduce from 24 runs to 8.
-    - cron:  '0 1,4,7,10,13,16,18 * * *'
+    # Run every 5 hours between 7:30am-10:30pm IST. Reduce from 24 runs to 8.
+    - cron:  '0 2,7,12,17 * * *'
   push:
     branches: [master]
   workflow_dispatch:
