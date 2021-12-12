@@ -5,7 +5,7 @@ name: Update
 on:
   schedule:
     # Run every 5 hours between 7:30am-10:30pm IST. Reduce from 24 runs to 8.
-    - cron:  '0 2,7,12,17 * * *'
+    - cron:  '0 7,12,17 * * *'
   push:
     branches: [master]
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pandas lxml html5lib
+        pip install pandas lxml html5lib beautifulsoup4
         which python
         python --version
 
