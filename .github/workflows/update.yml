@@ -25,7 +25,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pandas lxml
+        pip install pandas lxml html5lib
         which python
         python --version
 
